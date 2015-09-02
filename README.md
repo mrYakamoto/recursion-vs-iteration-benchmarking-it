@@ -1,15 +1,11 @@
-# Recursion Vs Iteration Benchmarking It
+# Benchmarking Iteration and Recursion
 
-##Learning Competencies
+## Summary
+As developers we write the best code that we can.  We write code to be elegant, concise, and readable.  We also want that code to be performant: execute quickly, use less resources, etc.  It's not always possible to have both.  For example, sometimes elegant, readable code executes too slowly for the needs of our application.
 
-* Use tools to evaluate basic performance considerations, benchmarking, and tradeoffs between memory and speed.
-* Use Ruby Docs to effectively research existing Ruby methods
+We've explored implementing the same behavior both iteratively and recursively.  Recursion often leads to elegant and concise code, but the performance of a recursive algorithm can be less optimal than that of an iterative algorithm.
 
-##Summary
-
-Recursion can be an elegant and extremely compact coding technique, but many times it's performance isn't quite as good as it's iterative cousin.
-
-In this challenge, lets see just how much slower recursion is than iteration for the Fibonacci problem.
+In this challenge, we're going to compare the performance of an iterative algorithm to a recursive algorithm.  We'll benchmark the performance of each and compare them to see how greatly their performances differ and under what circumstances.
 
 ##Releases
 
