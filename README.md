@@ -3,7 +3,7 @@
 ## Summary
 As developers we write the best code that we can.  We write code to be elegant, concise, and readable.  We also want that code to be performant: execute quickly, use less resources, etc.  It's not always possible to have both.  For example, sometimes elegant, readable code executes too slowly for the needs of our application.
 
-We've explored implementing the same behavior both iteratively and recursively.  Recursion often leads to elegant and concise code, but the performance of a recursive algorithm can be less optimal than that of an iterative algorithm.
+We've explored implementing the same behavior both iteratively and recursively.  Recursion often leads to elegant and concise code, but the performance of a recursive algorithm can sometimes be less optimal than that of an iterative algorithm.  Other recursive algorithms perform well against their iterative counterparts.
 
 In this challenge, we're going to compare the performance of an iterative algorithm to a recursive algorithm.  We'll benchmark the performance of each and compare them to see how greatly their performances differ and under what circumstances.
 
