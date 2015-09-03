@@ -37,5 +37,7 @@ Let's try to improve the performance of any recursive methods that began to perf
 
 *Hint:*  If we're stuck, we can look into memoization and adding default parameters to our methods.
 
-##Resources
-* [Benchmark](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html)
+## Conclusion
+What's the best way to implement the behaviors that we want for our methods?  An iterative algorithm?  A recursive algorithm?  We need to know the tradeoffs for each approach.  We also need to know what performance constraints we're under, so that we can balance writing elegant, readable code with the performance requirements of our program.
+
+As we're growing as developers at Dev Bootcamp, let's prefer writing concise, readable code over performant code.  At least for now.
