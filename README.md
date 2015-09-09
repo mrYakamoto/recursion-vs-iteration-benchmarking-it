@@ -33,7 +33,7 @@ With the charts of our results in hand, let's compare them.  Are there any diffe
 
 
 ### Release 3: Improve Performance (optional)
-Let's try to improve the performance of any recursive methods that began to perform poorly.  A good question to start with might be "Is the computer doing rework (i.e., calculating a number it's already calculated before)?"  And, if it is, how can we prevent it.
+Let's try to improve the performance of any recursive methods that began to perform poorly.  A good question to start with might be "Is the computer doing rework (i.e., calculating a number it's already calculated before)?"  And, if it is, how can we prevent it?
 
 *Hint:*  If we're stuck, we can look into memoization and adding default parameters to our methods.
 
